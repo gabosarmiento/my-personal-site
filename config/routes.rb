@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'welcome#index'
+  get '/por_que_lo_hago' => 'welcome#justificacion'
   match "interested", to: "interested#create", via: :post, as: 'interested'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
