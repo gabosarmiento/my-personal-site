@@ -1,6 +1,6 @@
 class NotificationsMailer < ActionMailer::Base
   default :from => "interesado@gabrielsarmiento.com"
-  default :to => Rails.application.secrets.gmail_username
+  default :to => ENV["GMAIL_USERNAME"]
 
   def new_message(message)
     @message = message
