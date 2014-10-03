@@ -6,7 +6,7 @@ if Rails.env.production?
     :authentication => :plain,
     user_name: ENV["GMAIL_USERNAME"],
     password: ENV["GMAIL_PASSWORD"],
-    :domain         => 'gabrielsarmiento.com',
+    :domain         => 'gmail.com',
     :enable_starttls_auto => true
   }
 end
