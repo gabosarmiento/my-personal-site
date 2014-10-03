@@ -6,7 +6,12 @@
           <%= image_tag("gabriel-sarmiento.png", alt: "gabriel sarmiento", id: "gabo-picture") %>
           <h1>Hola internet, soy Gabo!</h1>
           <p>Estoy buscando a 50 personas dispuestas a convertirse en trabajadores web y cambiar el rumbo de sus vidas en 30 días.</p>
-          <p>Como guía los acompañaré diariamente a cada uno de ustedes en sesiones en vivo y soporte remoto en el aprendizaje de las herramientas que considero que deben tenerse para ser aptos de trascender en el ecosistema laboral.</p>
+          <p>Los acompañaré diariamente con sesiones en vivo y soporte remoto en el aprendizaje de las herramientas que considero que deben tenerse para construir soluciones online.</p>
+          
+          <!-- Button trigger modal -->
+          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-md">
+          tl;dr Quiero participar!
+          </button>
         </div><!-- /col-lg-8 -->
       </div><!-- /row -->
       </div> <!-- /container -->
@@ -18,7 +23,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <h4>Centro de emisión</h4>
+          <h4>Lugar de emisión</h4>
           <p>
             Transversal 20 94-25 Torre 3 Apto 501<br/>
             + 57 1 8008502, <br/>
@@ -43,4 +48,39 @@
       </div>
     
     </div>
+  </div>
+
+  <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+        <h4 class="modal-title" id="myModalLabel">Quieres participar</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-4 col-lg-4">
+            <%= render partial: 'interested/form', locals: { message: @message } %> 
+          </div>
+          <div class="col-sm-8 col-lg-8">
+            <dl class="dl-horizontal">
+          <dt>Intensidad Horaria</dt>
+          <dd>40 horas/semana + 5 Sesiones en vivo/semana</dd>
+          <dt>Equipo recomendado</dt>
+          <dd>Laptop MacBook, Procesador multicore, Disco estado sólido</dd>
+          <dt>Conexión a Internet </dt>
+          <dd>Mínimo 2Mbps de descarga/subida</dd>
+          <dt>Lenguaje requerido </dt>
+          <dd>Sesiones en Español. Inglés básico de lectura.</dd>
+          <dt>Caja de herramientas: </dt>
+          <dd>General: Chrome DevTools, Github, Sublime Text, Heroku, AWS; Diseño: UI, UX, Diseño Material, Illustrator, Diseño para web y móviles; Frontend: HTML5, CSS3, Bootstrap, Javascript, jQuery, AngularJS; Backend: Ruby on Rails, NodeJs, Restful JSON APIs, Bases de datos complejas; Fuentes de información: Portales de inspiración, Stackoverflow, Newsletters, Blogs, Repositorios. </dd>
+          </dl>
+          </div>
+        </div>
+        
+       
+      </div>
+      
+    </div>
+  </div>
   </div>
