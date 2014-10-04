@@ -1,21 +1,90 @@
 <!-- +++++ Welcome Section +++++ -->
-  <div id="ww">
+  <div id="hola">
       <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 centered">
           <%= image_tag("gabriel-sarmiento.png", alt: "gabriel sarmiento", id: "gabo-picture") %>
-          <h1>Hola internet, soy Gabo!</h1>
-          <p>Estoy buscando a 50 personas dispuestas a convertirse en trabajadores web y cambiar el rumbo de sus vidas en los próximos 30 días.</p>
-          <p>Los acompañaré diariamente con sesiones en vivo y soporte remoto en el aprendizaje de las herramientas que considero que deben tenerse para construir soluciones online.</p>
+          <h1>Hola internet, soy Gabo</h1>
+          <p class="lead">Estoy buscando a <i id="aprendices" data-toggle="tooltip" data-placement="top" title="" data-original-title="tal vez más">50</i> personas dispuestas a aprender y cambiar el rumbo de sus vidas convertiéndose en trabajadores web en los próximos 30 días.<a href="#hola" id="goDown" onclick="hideMe()"><i class="icon-material-keyboard-arrow-down"></i></a></p>
+          <p class="lead">Los acompañaré diariamente con sesiones en vivo y soporte remoto en el aprendizaje de las herramientas que considero que deben tenerse para construir soluciones online.</p>
           
           <!-- Button trigger modal -->
-          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-md">
+          <button class="btn btn-info btn-lg" data-toggle="modal" data-target=".bs-example-modal-md">
           tl;dr Quiero participar!
           </button>
         </div><!-- /col-lg-8 -->
       </div><!-- /row -->
       </div> <!-- /container -->
   </div><!-- /ww -->
+
+  <!-- +++++ Information Section +++++ -->
+  <div id="info">
+  <div class="container pt">
+    <div class="row mt centered"> 
+      <div class="col-lg-3">
+        <span class="icon icon-material-access-alarms icon-material-teal"></span>
+        <h3>Intensidad Horaria</h3>
+        <p>La inmersion demanda que estés dedicado 100% al desarrollo. Necesitarás 40 horas/semana como mínimo.</p>
+      </div>
+      
+      <div class="col-lg-3">
+        <span class="icon icon-material-people icon-material-teal"></span>
+        <h3>Acompañamiento 1 a 1</h3>
+        <p>Tendrás sesiones de soporte remoto de 30 minutos para repasar los temas y un chat abierto permamente para solucionar tus dudas.</p>
+      </div>
+
+      <div class="col-lg-3">
+        <span class="icon icon-material-laptop icon-material-teal"></span>
+        <h3>Mac Lovers</h3>
+        <p>Deberás contar con una maquina poderosa y recomiendo tener una laptop MacBook, con Procesador multicore y disco de estado solido.</p>
+      </div>
+
+      <div class="col-lg-3">
+        <span class="icon icon-material-network-wifi icon-material-teal"></span>
+        <h3>Conexión rápida</h3>
+        <p>Como mínimo deberás tener una conexión de 1Mbps. El óptimo son 5Mbps de descarga/subida para acceder a los contenidos.</p>
+      </div>
+    </div><!-- /row -->
+    
+    <div class="row mt">
+      <div class="col-lg-6">
+        <h4>HERRAMIENTAS QUE PROPONGO</h4>
+        <p>Al finalizar tendrás una caja de herramientas para manejar: Chrome DevTools, Github, Sublime Text, Heroku y AWS. En Diseño: UI/UX, Diseño Material, Illustrator, Diseño para web y móviles. En Frontend: HTML5, CSS3, Bootstrap, Javascript, jQuery y AngularJS. En Backend: Ruby on Rails, Restful JSON APIs y Bases de datos complejas. Te guiaré para que conozcas portales de inspiración, busques respuestas en Stack Overflow, Newsletters, Blogs y Repositorios populares. Igualmente tendrás acceso a expertos del sector que invitaremos para que compartan su experiencia contigo.</p>
+      </div><!-- /colg-lg-6 -->
+      
+      <div class="col-lg-6">
+        <h4>PERFIL ESPERADO AL FINALIZAR EL PROGRAMA</h4>
+        Capacidad de desarrollar prototipos visuales, logos y portales para la web y móviles
+        <div class="progress">
+          <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+            <span class="sr-only">100% Complete</span>
+          </div>
+        </div>
+
+        Capacidad de desenvolverse como desarrollador Full Stack Junior
+        <div class="progress">
+          <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+            <span class="sr-only">100% complete</span>
+          </div>
+        </div>
+        
+        Capacidad de aprender por sus propios medios tecnologías de desarrollo
+        <div class="progress">
+          <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+            <span class="sr-only">100% Complete</span>
+          </div>
+        </div>
+
+      </div><!-- /col-lg-6 -->
+    </div><!-- /row -->
+    <div class="row centered">
+    <!-- Button trigger modal -->
+      <button class="btn btn-info btn-lg btn-lg-offset-4" data-toggle="modal" data-target=".bs-example-modal-md">
+      tl;dr Quiero participar!
+      </button>
+     </div>
+    </div><!-- /container -->
+  </div>
 
 <!-- +++++ Footer Section +++++ -->
   
@@ -35,7 +104,7 @@
           <h4>Conóceme</h4>
           <p>
             <a href="http://github.com/gabosarmiento">GitHub</a><br/>
-            <a href="http://co.linkedin.com/in/gabrielsarmiento/">Linkedin</a><br/>
+            <a href="http://co.linkedin.com/in/gabrielsarmiento/">LinkedIn</a><br/>
             <a href="http://twitter.com/gabosarmiento">Twitter</a><br/>
             <a href="http://facebook.com/gabrielsarmiento">Facebook</a>
           </p>
@@ -56,29 +125,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
-        <h4 class="modal-title" id="myModalLabel">Quieres participar del equipo Alfa</h4>
+        <h4 class="modal-title" id="myModalLabel">Quiero ser parte de la primera generación</h4>
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-sm-4 col-lg-4">
+          <div class="col-lg-12">
             <%= render partial: 'interested/form', locals: { message: @message } %> 
           </div>
-          <div class="col-sm-8 col-lg-8">
-            <dl class="dl-horizontal">
-          <dt>Intensidad Horaria</dt>
-          <dd>40 horas/semana + 5 Sesiones en vivo/semana</dd>
-          <dt>Equipo recomendado</dt>
-          <dd>Laptop MacBook, Procesador multicore, Disco estado sólido</dd>
-          <dt>Conexión a Internet </dt>
-          <dd>Mínimo 2Mbps de descarga/subida</dd>
-          <dt>Lenguaje requerido </dt>
-          <dd>Sesiones en Español. Inglés básico de lectura.</dd>
-          <!-- <dt>Caja de herramientas: </dt>
-          <dd>Chrome DevTools, Github, Sublime Text, Heroku y AWS; UX, Diseño Material, Illustrator, Diseño para web y móviles; HTML5, CSS3, Bootstrap, Javascript, jQuery y AngularJS;Ruby on Rails, NodeJs, Restful JSON APIs y Bases de datos complejas; Portales de inspiración, Stackoverflow, Newsletters, Blogs y Repositorios populares. </dd> -->
-          </dl>
-          </div>
         </div>
-        
        
       </div>
       

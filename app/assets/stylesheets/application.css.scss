@@ -1,4 +1,7 @@
-@import "bootstrap";  
+@import 'bootstrap-custom';
+@import 'bootstrap-sprockets';
+@import "bootstrap";
+@import "bootstrap-material-design.css";
 
 /*
  * Based on the project by: Carlos Alvarez
@@ -141,7 +144,7 @@ a:after {
 
 /* +++++ WRAP SECTIONS +++++ */
 
-#ww {
+#hola {
   padding-top: 70px;
   padding-bottom: 70px;
   background-color: #f2f2f2;
@@ -165,10 +168,10 @@ a:after {
 }
 
 
-/* glyphicon Configuration */
+/* icon Configuration */
 
-.glyphicon {
-  font-size: 40px;
+.icon {
+  font-size: 61px;
   color: #1abc9c;
 }
 
@@ -178,8 +181,8 @@ a:after {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .alert {

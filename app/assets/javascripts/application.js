@@ -13,5 +13,24 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require bootstrap-material-design
 //= require turbolinks
 //= require_tree .
+var hideMe = {};
+$(document).ready(function(){
+  $("#aprendices").tooltip();
+  hideMe = function(){
+    var link = document.getElementById("goDown");
+    return link.style.visibility = "hidden"; 
+  }
+  var $root = $('html, body');
+  $('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+  });
+});
