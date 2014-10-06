@@ -23,10 +23,10 @@
  * URL: http://blacktie.co
  */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/css?family=Monserrat:400,700);
 body {
     background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -37,7 +37,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Monserrat', sans-serif;
     font-weight: 700;
     color: #333;
 }
@@ -63,7 +63,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #6889ff;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -105,13 +105,13 @@ a:after {
 }
 
 .navbar-inverse {
-  padding-bottom: 70px;
-  padding-top: 70px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .navbar-inverse {
-  background-color: #1abc9c;
-  border-color: #16a085;
+  background-color: #738ffe;
+  border-color: #738ffe;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -137,7 +137,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+  background-color: #3f51b5;
 }
 
 
@@ -149,19 +149,31 @@ a:after {
 }
 
 .pt {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 
 /* +++++ WRAP SECTIONS +++++ */
 
 #hola {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  background: url(/assets/header-bg.jpg) no-repeat center top;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background-color: #f2f2f2;
 }
 
+#hola h1 {
+
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#hola .lead {
+  color: white;
+}
 
 #footer {
   background-color: #2f2f2f;
@@ -184,7 +196,7 @@ a:after {
 
 .icon {
   font-size: 61px;
-  color: #1abc9c;
+  color: #5677fc;
 }
 
 #gabo-picture {
@@ -197,10 +209,13 @@ a:after {
     height: 200px;
 }
 
+blockquote {
+  padding-top: 20px;
+}
 .alert {
   margin-bottom: 0;
 }
 
 .btn-info:not(.btn-link) {
-  background-color: #1abc9c;
+  background-color: #ff5177;
   }
