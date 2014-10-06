@@ -15,7 +15,7 @@ class Message
       send("#{name}=", value)
     end
   end
-
+  # Message are never persisted in the DB http://api.rubyonrails.org/classes/ActiveModel/Conversion.html
   def persisted?
     false
   end
