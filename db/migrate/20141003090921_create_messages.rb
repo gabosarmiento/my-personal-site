@@ -4,6 +4,7 @@ class CreateMessages < ActiveRecord::Migration
       t.string :name, default: ""
       t.string :email, default: ""
       t.text :body, default: ""
+      t.text :ideas, default: ""
   
       t.timestamps
     end

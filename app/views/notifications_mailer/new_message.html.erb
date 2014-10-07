@@ -1,7 +1,11 @@
 <div>
-Nombre: <%= @message.name %>
+<p>Yuju tienes un nuevo interesado: <br> 
+Nombre: <%= @message.name %> <br>
 Email: <%= @message.email %>
+</p>
 </div>
 <div>
-<p>Le interesa ser un trabajador web porque: <%= @message.body %></p>
+<p>A la pregunta del interés respondió: <%= @message.body %></p>
+<br>
+<p>Y las ideas que quiere trabajar son: <%= @message.ideas %></p>
 </div>

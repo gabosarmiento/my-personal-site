@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20141003090921) do
     t.string   "name",       default: ""
     t.string   "email",      default: ""
     t.text     "body",       default: ""
+    t.text     "ideas",      default: ""
     t.datetime "created_at"
     t.datetime "updated_at"
   end

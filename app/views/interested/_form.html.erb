@@ -15,10 +15,17 @@
     </div>
 
     <div class="form-group">
+      <%= f.label :ideas, "Cuál es tu idea?", class: "col-lg-2 control-label" %>
+      <div class="col-lg-10">
+        <%= f.text_area :ideas , class: "form-control", placeholder: "Ingresa tus idea o tus proyectos de aplicaciones web" %>
+      </div>
+    </div>
+
+    <div class="form-group">
       <%= f.label :body, "Principal interés" , class: "col-lg-2 control-label" %>
       <div class="col-lg-10">
         <%= f.text_area :body, class: "form-control", rows: "3", placeholder: "Cuéntame por qué quieres participar?" %>
-        <span class="help-block">Esto me ayudará a pulir más las sesiones.</span>
+        
       </div>
     </div>
   
