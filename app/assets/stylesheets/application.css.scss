@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 34px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -227,3 +227,33 @@ blockquote {
 .btn-info:not(.btn-link) {
   background-color: #ff5177;
   }
+
+@media (max-width: 767px) {
+  #hola {
+    h1 {
+      font-size: 20px; 
+    }
+  }
+
+  .navbar-brand {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin-top: -30px; 
+    margin-left: 0px; 
+
+    img {
+      margin: 14px 0px 0 0;
+    }
+  }
+
+  .btn-lg {
+    font-size: 14px;
+  }
+
+  .lead {
+    font-size: 12px;
+  }
+
+}
