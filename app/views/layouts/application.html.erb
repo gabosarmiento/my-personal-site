@@ -32,7 +32,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= link_to "gabosarmiento", root_path, class: "navbar-brand" %>
+          <%= link_to root_path, class: "navbar-brand" do %>
+          <%= image_tag("90-hrs-wk.png") %>
+          gabosarmiento
+          <% end %>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
