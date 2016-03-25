@@ -5,9 +5,9 @@ class InterestedController < ApplicationController
     
     if @message.valid?
       NotificationsMailer.new_message(@message).deliver
-      redirect_to(root_path, :notice => "Mensaje enviado exitosamente.")
+      redirect_to(root_path, :notice => "Message sent succesfully.")
     else
-      redirect_to(root_path, :alert => "Lo siento revisa el mensaje pues no pudo ser enviado.")
+      redirect_to(root_path, :alert => "I'm sorry try again and please check the application form.")
     end
   end
 
