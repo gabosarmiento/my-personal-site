@@ -4,7 +4,7 @@ class NotificationsMailer < ActionMailer::Base
 
   def new_message(message)
     @message = message
-    mail(:subject => "GS - interesados")
+    mail(:subject => "Webform Gabrielsarmiento.com - Partnerships")
   end
 
 end
