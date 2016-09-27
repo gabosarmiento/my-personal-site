@@ -129,11 +129,11 @@ a:after {
   font-size: 20px;
   letter-spacing: 2px;
   padding: 0;
-  margin-top: -55px; 
+  margin-top: -55px;
 
   img {
     margin: 24px 10px 0 0;
-    height: 150px; 
+    height: 150px;
   }
 }
 
@@ -170,6 +170,7 @@ a:after {
   padding-top: 20px;
   padding-bottom: 30px;
   background-color: #292826;
+  min-height: 130px;
 }
 
 #hola h1 {
@@ -186,16 +187,16 @@ a:after {
 
 #contact {
   background-color: #000000;
-  padding-top: 40px; 
-  padding-bottom: 40px; 
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; 
-  text-align: center; 
+  width: 100%;
+  text-align: center;
   h3 {
-    color: white; 
-    padding-top: 10px; 
-    padding-bottom: 20px; 
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 
   label {
@@ -211,7 +212,7 @@ a:after {
     line-height: 20px;
     font-weight: 200;
     text-align: center;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   ::-webkit-input-placeholder { /* WebKit browsers */
@@ -232,7 +233,7 @@ a:after {
 #footer {
   background-color: #2f2f2f;
   padding-top: 50px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 
 #footer p {
@@ -277,7 +278,7 @@ blockquote {
 @media (max-width: 767px) {
   #hola {
     h1 {
-      font-size: 20px; 
+      font-size: 20px;
     }
   }
 
@@ -286,8 +287,8 @@ blockquote {
     font-size: 14px;
     letter-spacing: 2px;
     padding: 0;
-    margin-top: -30px; 
-    margin-left: 0px; 
+    margin-top: -30px;
+    margin-left: 0px;
 
     img {
       margin: 14px 0px 0 0;
