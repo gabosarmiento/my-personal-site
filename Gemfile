@@ -23,5 +23,3 @@ gem 'bootstrap-material-design'
 gem 'material_icons'
 gem 'autoprefixer-rails'
 gem 'newrelic_rpm'
-gem 'dotenv-rails', :require => 'dotenv/rails-now'
-gem "recaptcha", require: "recaptcha/rails"
