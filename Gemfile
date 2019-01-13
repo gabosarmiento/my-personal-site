@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.3'
+ruby '2.3.4'
 gem 'rails', '4.1.6'
 group :production do
   gem 'pg'
@@ -23,3 +23,5 @@ gem 'bootstrap-material-design'
 gem 'material_icons'
 gem 'autoprefixer-rails'
 gem 'newrelic_rpm'
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'bcrypt'
