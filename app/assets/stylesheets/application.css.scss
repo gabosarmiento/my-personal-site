@@ -173,11 +173,15 @@ a:after {
 /* +++++ WRAP SECTIONS +++++ */
 
 #hola {
-  background: asset-url("header-bg1.jpeg") no-repeat center top;
-  padding-top: 90px;
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.6)
+    ), asset-url('header-bg1.jpeg') no-repeat center center;
+  margin-top: -90px;
+  padding-top: 190px;
   padding-bottom: 30px;
   background-color: #292826;
-  height: 340px;
+  height: 540px;
 }
 
 #hola h1 {
