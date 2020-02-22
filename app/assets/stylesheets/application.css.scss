@@ -177,7 +177,6 @@ a:after {
       rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 0.6)
     ), asset-url('header-bg1.jpeg') no-repeat center center;
-  background-position: left -800px top -75px;
   padding-top: 190px;
   padding-bottom: 30px;
   background-color: #292826;
@@ -200,6 +199,7 @@ a:after {
   #grid {
     #card{
       border-color: #DEF847;
+      background: transparent;
       color: white;
       h3{
         color: #DEF847;
@@ -208,7 +208,7 @@ a:after {
         font-weight: 600;
         text-transform: uppercase;
       }
-    }  
+    }
   }
 }
 #contact {
@@ -303,6 +303,7 @@ blockquote {
 
 @media (max-width: 767px) {
   #hola {
+    background-position: left -800px top -75px;
     h1 {
       font-size: 40px;
     }
