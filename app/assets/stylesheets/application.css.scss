@@ -177,6 +177,7 @@ a:after {
       rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 0.6)
     ), asset-url('header-bg1.jpeg') no-repeat center center;
+  background-position: left -800px top -75px;
   padding-top: 190px;
   padding-bottom: 30px;
   background-color: #292826;
@@ -194,7 +195,22 @@ a:after {
 #hola .lead {
   color: white;
 }
-
+#offering {
+  background-color: #28293D;
+  #grid {
+    #card{
+      border-color: #DEF847;
+      color: white;
+      h3{
+        color: #DEF847;
+        font-size: 27px;
+        line-height: 27px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }  
+  }
+}
 #contact {
   background-color: #000000;
   padding-top: 40px;
@@ -288,7 +304,7 @@ blockquote {
 @media (max-width: 767px) {
   #hola {
     h1 {
-      font-size: 20px;
+      font-size: 40px;
     }
   }
 
@@ -301,7 +317,7 @@ blockquote {
     margin-left: 0px;
 
     img {
-      margin: 14px 0px 0 0;
+      margin: 14px 0 0 0;
       height: 100px;
     }
   }
@@ -311,7 +327,7 @@ blockquote {
   }
 
   .lead {
-    font-size: 12px;
+    font-size: 24px;
   }
 
 }
