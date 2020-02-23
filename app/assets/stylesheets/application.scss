@@ -199,6 +199,7 @@ a:after {
   font-size: 1.8em;
   font-weight: normal;
 }
+
 #info {
   background-color: #DEF847;
   h3 {
@@ -227,12 +228,10 @@ a:after {
   border-color: #DEF847;
   #grid-items{
     margin-top: 50px;
-    border: 1px solid;
-    border-color: #DEF847;
+    // border: 1px solid #DEF847;
     #card-item{
+      border: 1px solid #DEF847;
 
-      border: 1px solid;
-      border-color: #DEF847;
       background: transparent;
       color: white;
       h3{
@@ -319,6 +318,9 @@ a:after {
 
 blockquote {
   padding-top: 20px;
+  .lead {
+    font-weight: 500;
+  }
 }
 .alert {
   margin-bottom: 0;
