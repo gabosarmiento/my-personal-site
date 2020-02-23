@@ -40,8 +40,9 @@ GEM
       execjs
     bootstrap-material-design (0.2.2)
       bootstrap-sass (~> 3.0)
-    bootstrap-sass (3.2.0.4)
-      sass (~> 3.2)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     builder (3.2.4)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -54,6 +55,7 @@ GEM
     crass (1.0.6)
     erubis (2.7.0)
     execjs (2.7.0)
+    ffi (1.12.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     hike (1.2.3)
@@ -123,6 +125,8 @@ GEM
       sass (~> 3.2.2)
       sprockets (~> 2.8, < 3.0)
       sprockets-rails (~> 2.0)
+    sassc (2.2.1)
+      ffi (~> 1.9)
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -154,7 +158,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootstrap-material-design
-  bootstrap-sass (~> 3.2.0)
+  bootstrap-sass (~> 3.4.1)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
