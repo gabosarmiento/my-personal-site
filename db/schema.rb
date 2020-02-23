@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20141003090921) do
 
-  create_table "messages", force: true do |t|
+  create_table "messages", force: :cascade do |t|
     t.string   "name",       default: ""
     t.string   "email",      default: ""
     t.text     "body",       default: ""
